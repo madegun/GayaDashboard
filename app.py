@@ -3,6 +3,14 @@ import pandas as pd
 import plotly.express as px
 from st_aggrid import AgGrid, GridOptionsBuilder
 
+st.set_page_config(
+    page_title = "Gaya Dashboard",
+    page_icon = "https://images.squarespace-cdn.com/content/58df25dc6a4963762c660f5d/1513333344311-STTGSPO1P8BJ1BJTCD59/Logo+Gaya+Ceramic_Gold2.png",
+    layout="wide",
+    initial_sidebar_state="expanded"
+
+)
+
 # Fungsi untuk membaca data dari Excel
 @st.cache_resource
 def load_data(file_path):
