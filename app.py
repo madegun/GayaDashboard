@@ -4,9 +4,9 @@ import plotly.express as px
 from st_aggrid import AgGrid, GridOptionsBuilder
 
 st.set_page_config(
-    page_title = "Gaya Dashboard",
-    page_icon = "https://images.squarespace-cdn.com/content/58df25dc6a4963762c660f5d/1513333344311-STTGSPO1P8BJ1BJTCD59/Logo+Gaya+Ceramic_Gold2.png",
-    layout="wide",
+    page_title = "Gaya Ceramic",
+    page_icon = "https://images.squarespace-cdn.com/content/v1/58df25dc6a4963762c660f5d/1494914705339-TBZ0QFZ4AOCGWTUKF6TR/favicon.ico",
+    layout="centered",
     initial_sidebar_state="expanded"
 
 )
